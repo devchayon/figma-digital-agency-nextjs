@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,136 @@ a {
 
 * {
   box-sizing: border-box;
+  color: #fff;
+}
+
+.bg-color {
+  background-color: #19191b;
+}
+
+/* custom css */
+
+.mobile-menu-color {
+  background-color: #313138;
+}
+
+/* scale-up animation */
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+/* image sizing */
+
+.logo-png {
+  width: 7rem;
+}
+
+/* gradient boxes */
+
+.gradient-header-1 {
+  width: 80rem;
+  height: 35rem;
+  border-radius: 10rem;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    ellipse at 49% 49%,
+    rgba(15, 0, 213, 0.37) 0%,
+    rgba(43, 23, 180, 0) 68%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    ellipse at 49% 49%,
+    rgba(15, 0, 213, 0.37) 0%,
+    rgba(43, 23, 180, 0) 68%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    ellipse at 49% 49%,
+    rgba(15, 0, 213, 0.37) 0%,
+    rgba(43, 23, 180, 0) 68%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    ellipse at 49% 49%,
+    rgba(15, 0, 213, 0.37) 0%,
+    rgba(43, 23, 180, 0) 68%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    ellipse at 49% 49%,
+    rgba(15, 0, 213, 0.37) 0%,
+    rgba(43, 23, 180, 0) 68%
+  );
+}
+
+/* btn */
+
+.btn-color {
+  background-color: #5454d4;
+}
+
+.navbar-text p a:hover {
+  color: #5454d4;
+  transition: all 0.3s ease;
+}
+
+.text-color-btn a:hover {
+  color: #5454d4;
+  transition: all 0.3s ease;
+}
+
+/* Swiper */
+
+.swiper-container {
+  padding-top: 8rem;
+  max-width: 100%;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  height: 50;
+  width: 50px;
+  background-color: var(--silver);
+  z-index: 10;
+  right: 60px;
+  left: auto;
+  top: 0;
+  transform: translateY(50%);
+  color: var(--black);
+  border-radius: 8px;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 2rem;
 }
