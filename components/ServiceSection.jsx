@@ -44,11 +44,26 @@ const serviceContent = [
 const ServiceSection = () => {
   return (
     <div id="service" className="py-24 relative">
+      <img
+        className="absolute top-3 w-20 md:left-20 md:top-10"
+        src="/assets/serviceshape/s-shape1.png"
+        alt=""
+      />
+      <img
+        className="absolute bottom-10 w-10"
+        src="/assets/serviceshape/s-shape2.png"
+        alt=""
+      />
+      <img
+        className="absolute right-0 top-48 w-10"
+        src="/assets/serviceshape/s-shape3.png"
+        alt=""
+      />
       <div className="absolute -left-96 -top-64 opacity-25 pointer-events-none">
         <img src="/assets/gradient1.svg" alt="" />
       </div>
       <div className="">
-        <h1 className="font-bold text-5xl text-center mb-12">
+        <h1 className="font-bold text-3xl md:text-5xl text-center mb-12">
           The Service We Provide For You
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:md:grid-cols-3 gap-8">

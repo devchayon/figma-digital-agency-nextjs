@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="py-16">
       <div className="flex flex-col">
         <div className="flex flex-col md:flex-row gap-4 mb-5 text-center md:text-left">
-          <h2 className="flex-1 text-5xl font-bold mb-3">
+          <h2 className="flex-1 text-3xl md:text-5xl font-bold mb-3">
             Why Enver Is The Best Choice?
           </h2>
           <p className="flex-1 md:text-lg text-gray-300">

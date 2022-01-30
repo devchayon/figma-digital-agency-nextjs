@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="flex gap-6 md:gap-0 flex-col justify-center items-center md:flex-row ">
         <div className="flex flex-col justify-start flex-1 mr-2 w-full z-10">
-          <h1 className="text-5xl lg:text-6xl text-center md:text-left mb-6 font-bold">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl text-center md:text-left mb-6 font-bold">
             Build Your Awesome Platform
           </h1>
           <p className="text-center lg:text-lg md:text-left mb-6 font-light text-gray-300 ">
@@ -31,12 +31,7 @@ const Header = () => {
           </button>
         </div>
         <div className="flex-1 flex items-center justify-center relative">
-          <Image
-            src="/assets/Header.png"
-            alt="header"
-            width="500"
-            height="540"
-          />
+          <img src="/assets/Header.png" alt="header" />
           <img
             className="absolute top-5 right-6 lg:top-10 lg:right-20 w-10"
             src="/assets/circle.png"

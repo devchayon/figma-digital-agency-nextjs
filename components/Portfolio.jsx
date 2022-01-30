@@ -41,8 +41,18 @@ const PortfolioStyles = styled.div`
 const Portfolio = () => {
   return (
     <PortfolioStyles>
-      <div className="py-24 relative">
-        <h2 className="text-center md:text-left mb-10 text-2xl md:text-4xl font-bold">
+      <div className="py-24 mb-16 mt-8 relative">
+        <img
+          className="absolute top-5 md:top-12 w-14 right-3 md:right-8"
+          src="/assets/portshape/port-shape-1.png"
+          alt=""
+        />
+        <img
+          className="absolute bottom-14 w-10  left-3 md:left-5"
+          src="/assets/portshape/port-shape-2.png"
+          alt=""
+        />
+        <h2 className="text-center md:text-left mb-10 text-3xl md:text-5xl font-bold">
           Our Awesome Portfolio
         </h2>
         <Swiper

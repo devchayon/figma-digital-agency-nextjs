@@ -3,31 +3,31 @@ const projects = [
     id: 1,
     img: '/assets/project/project1.png',
     name: 'Project 1',
-    desc: 'd'
+    desc: 'desc'
   },
   {
-    id: 1,
-    img: '/assets/project/project1.png',
+    id: 2,
+    img: '/assets/project/project2.png',
     name: 'Project 2',
-    desc: 'd'
+    desc: 'desc'
   },
   {
-    id: 1,
-    img: '/assets/project/project1.png',
+    id: 3,
+    img: '/assets/project/project3.png',
     name: 'Project 3',
-    desc: 'd'
+    desc: 'desc'
   },
   {
-    id: 1,
+    id: 4,
     img: '/assets/project/project1.png',
     name: 'Project 4',
-    desc: 'd'
+    desc: 'desc'
   },
   {
-    id: 1,
+    id: 5,
     img: '/assets/project/project1.png',
     name: 'Project 5',
-    desc: 'd'
+    desc: 'desc'
   },
 ];
 
