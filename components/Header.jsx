@@ -31,7 +31,12 @@ const Header = () => {
           </button>
         </div>
         <div className="flex-1 flex items-center justify-center relative">
-          <img src="/assets/Header.png" alt="header" />
+          <Image
+            src="/assets/Header.png"
+            alt="header"
+            width="500"
+            height="540"
+          />
           <img
             className="absolute top-5 right-6 lg:top-10 lg:right-20 w-10"
             src="/assets/circle.png"
